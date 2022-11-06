@@ -4,9 +4,6 @@
     "description": "Node module to access calendly api.",
     "main": "./lib/Calendly.js",
     "types": "lib/Calendly.d.ts",
-    "engines": {
-        "node": ">=17.5.0"
-    },
     "scripts": {
         "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
         "format": "prettier --write \"src/**/*.ts\"",
